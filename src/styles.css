@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  font-size: 1.1rem;
+}
+
+.MainCase {
+  border: solid;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #334155;
+}
+
+.EmojiCase {
+  border: solid red;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #fff;
+  height: 80vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(255, 255, 255, 0.945) 0px 54px 55px,
+    rgba(255, 255, 255, 0.945) 0px -12px 30px,
+    rgba(255, 255, 255, 0.945) 0px 4px 6px,
+    rgba(255, 255, 255, 0.945) 0px 12px 13px,
+    rgba(255, 255, 255, 0.945) 0px -3px 5px;-3px 5px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #e11d48;
+  margin-top: 1rem;
+}
+
+.inputBox {
+  padding: 1rem;
+  width: 60%;
+  margin-inline: 3rem;
+  margin-block: 2rem;
+  outline: none;
+  border: 2px solid #dc2626;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.emojiShowBox {
+  /* border: dashed #f43f5e; */
+  height: 15rem;
+  widows: 60%;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.emojiIcons {
+  margin: 1rem;
+  padding: 5px;
+  cursor: pointer;
+}
